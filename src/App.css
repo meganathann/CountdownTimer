@@ -1,61 +1,48 @@
-/* App.css */
-
 .app {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100vh; /* Adjust as needed */
+  height: 100vh;
 }
 
 .app h1 {
   margin-bottom: 20px;
 }
-/* App.css */
 
 .gradient-bg {
-  background-image: linear-gradient(
-    to right,
-    #ff9a9e,
-    #fad0c4
-  ); /* Example gradient colors */
+  background-image: linear-gradient(to right, #ff9a9e, #fad0c4);
 }
-/* App.css */
 
-/* Title */
 h1 {
   text-align: center;
-  color: #fff; /* Text color */
-  margin-bottom: 20px; /* Add some space below the title */
+  color: #fff;
+  margin-bottom: 20px;
 }
 
-/* Countdown Over Message */
 .countdown-over {
   text-align: center;
   font-size: 24px;
-  color: #fff; /* Text color */
-  margin-top: 20px; /* Add some space above the message */
+  color: #fff;
+  margin-top: 20px;
 }
 
-/* Countdown Over Message Paragraph */
 .countdown-over p {
   margin: 0;
 }
-/* App.css */
 
-/* Restart Timer Button */
 .restart-timer-button {
-  margin-top: 10px; /* Add margin to separate from the message */
-  padding: 10px 20px; /* Padding */
+  margin-top: 10px;
+  padding: 10px 20px;
   border: none;
-  border-radius: 5px; /* Rounded corners */
-  background-color: #fff; /* Button background color */
-  color: #000; /* Button text color */
+  border-radius: 5px;
+  background-color: #fff;
+  color: #000;
   font-size: 16px;
   cursor: pointer;
-  transition: background-color 0.3s ease; /* Smooth transition */
+  transition: background-color 0.3s ease;
 }
 
 .restart-timer-button:hover {
-  background-color: #8f94fb; /* Change background color on hover */
+  background-color: #8f94fb;
 }

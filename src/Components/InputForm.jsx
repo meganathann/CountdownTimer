@@ -18,7 +18,7 @@ const InputForm = ({ onSetTargetDate, showForm }) => {
     e.preventDefault();
 
     const now = new Date();
-    const maxDate = new Date(now.getTime() + 99 * 24 * 60 * 60 * 1000); // 99 days from now
+    const maxDate = new Date(now.getTime() + 99 * 24 * 60 * 60 * 1000);
 
     const selectedDate = new Date(`${dateInput}T${timeInput}`);
     if (selectedDate < now) {
@@ -36,7 +36,7 @@ const InputForm = ({ onSetTargetDate, showForm }) => {
 
   return (
     <form
-      className={showForm ? "input-form" : "input-form hidden"} // Use classnames based on showForm state
+      className={showForm ? "input-form" : "input-form hidden"}
       onSubmit={handleSubmit}
     >
       <input
@@ -44,7 +44,7 @@ const InputForm = ({ onSetTargetDate, showForm }) => {
         value={dateInput}
         onChange={handleDateChange}
         required
-        min={new Date().toISOString().split("T")[0]} // Set min date to today
+        min={new Date().toISOString().split("T")[0]}
         className="form-input"
       />
       <input

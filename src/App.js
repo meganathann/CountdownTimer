@@ -27,25 +27,24 @@ function App() {
 
   const handleSetTargetDate = (date) => {
     setTargetDate(date);
-    setShowForm(false); // Hide the form when countdown is set
-    setCountdownOver(false); // Reset countdown over state
+    setShowForm(false);
+    setCountdownOver(false);
   };
 
   const handleStopTimer = () => {
     setTargetDate(null);
-    setShowForm(true); // Show the form when timer is stopped
-    setCountdownOver(false); // Reset countdown over state
+    setShowForm(true);
+    setCountdownOver(false);
   };
 
   const handleRestartTimer = () => {
-    setCountdownOver(false); // Reset countdown over state
-    setShowForm(true); // Show the input form
+    setCountdownOver(false);
+    setShowForm(true);
   };
 
   return (
     <div className="app gradient-bg">
       {" "}
-      {/* Apply the gradient-bg class */}
       <h1>Countdown Timer</h1>
       <InputForm onSetTargetDate={handleSetTargetDate} showForm={showForm} />
       {(showForm || targetDate) && <CountdownTimer targetDate={targetDate} />}

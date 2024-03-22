@@ -1,88 +1,66 @@
-commonStyles.css
-
-/* Gradient Background */
 .gradient-background {
-  background-image: linear-gradient(
-    to right,
-    #ff9a9e,
-    #fad0c4
-  ); /* Example gradient colors */
+  background-image: linear-gradient(to right, #ff9a9e, #fad0c4);
 }
 
-/* Rounded Box */
 .rounded-box {
   border-radius: 10px;
 }
 
-/* Shadow */
 .shadow {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Center Content */
 .center-content {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-/* Timer Value */
 .timer-value {
   font-size: 36px;
   font-weight: bold;
-  color: #fff; /* Text color */
+  color: #fff;
 }
 
-/* Timer Label */
 .timer-label {
   font-size: 16px;
-  color: #fff; /* Text color */
+  color: #fff;
 }
 
-/* Form */
 .form {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-/* Form Input */
 .form-input {
   margin-bottom: 10px;
 }
 
-/* Form Button */
 .form-button {
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
-  background-color: #fff; /* Button background color */
-  color: #000; /* Button text color */
+  background-color: #fff;
+  color: #000;
   cursor: pointer;
 }
 
-/* Countdown Over Message */
 .countdown-over {
   font-size: 18px;
-  color: #fff; /* Text color */
+  color: #fff;
 }
 
-/* Countdown Over Message Button */
 .countdown-over-button {
   margin-top: 10px;
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
-  background-color: #fff; /* Button background color */
-  color: #000; /* Button text color */
+  background-color: #fff;
+  color: #000;
   cursor: pointer;
 }
-/* styles.css */
 
-/* Input Form */
-/* styles.css */
-
-/* Input Form */
 .input-form {
   display: block;
 }
@@ -93,42 +71,42 @@ commonStyles.css
 
 .input-form input[type="date"],
 .input-form input[type="time"] {
-  background-color: #f0f0f0; /* Background color */
-  color: #333; /* Text color */
+  background-color: #f0f0f0;
+  color: #333;
   font-size: 16px;
-  padding: 10px 15px; /* Padding */
+  padding: 10px 15px;
   border: none;
-  border-radius: 5px; /* Rounded corners */
-  margin-bottom: 10px; /* Add some space between inputs */
+  border-radius: 5px;
+  margin-bottom: 10px;
 }
 
 .input-form input[type="date"]::placeholder,
 .input-form input[type="time"]::placeholder {
-  color: #888; /* Placeholder color */
+  color: #888;
 }
 
 .input-form input[type="date"]:focus,
 .input-form input[type="time"]:focus {
   outline: none;
-  box-shadow: 0 0 0 2px #4e54c8; /* Focus border color */
+  box-shadow: 0 0 0 2px #4e54c8;
 }
 
 .input-form button {
-  background-color: #4e54c8; /* Background color */
-  color: #ffffff; /* Text color */
+  background-color: #4e54c8;
+  color: #ffffff;
   font-size: 16px;
-  padding: 10px 20px; /* Padding */
+  padding: 10px 20px;
   border: none;
-  border-radius: 5px; /* Rounded corners */
+  border-radius: 5px;
   cursor: pointer;
-  transition: background-color 0.3s ease; /* Smooth transition */
+  transition: background-color 0.3s ease;
 }
 
 .input-form button:hover {
-  background-color: #8f94fb; /* Change background color on hover */
+  background-color: #8f94fb;
 }
 .form-input {
-  margin-bottom: 10px; /* Add space between input fields and button */
+  margin-bottom: 10px;
 }
 .timer-controls {
   display: block;
@@ -142,13 +120,13 @@ commonStyles.css
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
-  background-color: #fff; /* Button background color */
-  color: #000; /* Button text color */
+  background-color: #fff;
+  color: #000;
   font-size: 16px;
   cursor: pointer;
-  transition: background-color 0.3s ease; /* Smooth transition */
+  transition: background-color 0.3s ease;
 }
 
 .timer-controls button:hover {
-  background-color: #8f94fb; /* Change background color on hover */
+  background-color: #8f94fb;
 }

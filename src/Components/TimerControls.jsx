@@ -8,11 +8,9 @@ const TimerControls = ({ onStopTimer, showStopButton }) => {
       className={showStopButton ? "timer-controls" : "timer-controls hidden"}
     >
       {" "}
-      {/* Use classnames based on showStopButton state */}
       <button onClick={onStopTimer} className="form-button">
         Stop Timer
       </button>{" "}
-      {/* Apply the same button styles */}
     </div>
   );
 };
