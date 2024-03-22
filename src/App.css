@@ -1,38 +1,61 @@
-.App {
-  text-align: center;
-}
+/* App.css */
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.app {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  height: 100vh; /* Adjust as needed */
 }
 
-.App-link {
-  color: #61dafb;
+.app h1 {
+  margin-bottom: 20px;
+}
+/* App.css */
+
+.gradient-bg {
+  background-image: linear-gradient(
+    to right,
+    #ff9a9e,
+    #fad0c4
+  ); /* Example gradient colors */
+}
+/* App.css */
+
+/* Title */
+h1 {
+  text-align: center;
+  color: #fff; /* Text color */
+  margin-bottom: 20px; /* Add some space below the title */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Countdown Over Message */
+.countdown-over {
+  text-align: center;
+  font-size: 24px;
+  color: #fff; /* Text color */
+  margin-top: 20px; /* Add some space above the message */
+}
+
+/* Countdown Over Message Paragraph */
+.countdown-over p {
+  margin: 0;
+}
+/* App.css */
+
+/* Restart Timer Button */
+.restart-timer-button {
+  margin-top: 10px; /* Add margin to separate from the message */
+  padding: 10px 20px; /* Padding */
+  border: none;
+  border-radius: 5px; /* Rounded corners */
+  background-color: #fff; /* Button background color */
+  color: #000; /* Button text color */
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.restart-timer-button:hover {
+  background-color: #8f94fb; /* Change background color on hover */
 }
